@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cart</title>
+    <link rel="shortcut icon" href="../assets/icon.png" type="image/.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/responsiveHome.css" />
+    <link rel="stylesheet" href="../css/blog.css" />
+    <link rel="stylesheet" href="../css/shop.css" />
+    <link rel="stylesheet" href="../css/about.css" />
+    <link rel="stylesheet" href="../css/contact.css" />
+    <link rel="stylesheet" href="../css/cart.css" />
+  </head>
+  <body>
+    <section id="header">
+      <a href="../index.html"
+        ><img src="../assets/logo.png" alt="logo" class="logo"
+      /></a>
+      <div>
+        <ul id="navbar">
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../sub-pages/shop.html">Shop</a></li>
+          <li><a href="../sub-pages/blog.html">Blog</a></li>
+          <li><a href="../sub-pages/about.html">About</a></li>
+          <li><a href="../sub-pages/contact.html">Contact</a></li>
+          <li class="lg-bag">
+            <a class="active" href="../sub-pages/cart.html"
+              ><i class="fa-solid fa-bag-shopping"></i
+            ></a>
+          </li>
+          <a href="#" id="close"><i class="fa-solid fa-xmark"></i></a>
+        </ul>
+      </div>
+      <div id="mobile">
+        <a href="./sub-pages/cart.html"
+          ><i class="fa-solid fa-bag-shopping"></i
+        ></a>
+        <i id="bar" class="fa-solid fa-bars"></i>
+      </div>
+    </section>
+    <section id="page-header" class="about-header">
+      <h2>#let's_talk</h2>
+      <p>LEAVE A MESSAGE,We love to hear from you!</p>
+    </section>
+    <section id="cart" class="section-p1">
+      <table width="100%">
+        <thead>
+          <tr>
+            <td>REMOVE</td>
+            <td>IMAGES</td>
+            <td>PRODUCTS</td>
+            <td>PRICE</td>
+            <td>QUANTITY</td>
+            <td>SUBTOTAL</td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <a href="#"><i class="fa-regular fa-circle-xmark"></i></a>
+            </td>
+            <td><img src="../assets/products/f1.jpg" alt="P-1" /></td>
+            <td>Cartoon Astronaut T-shirts</td>
+            <td>$118.19</td>
+            <td><input type="number" value="1" /></td>
+            <td>$118.19</td>
+          </tr>
+          <tr>
+            <td>
+              <a href="#"><i class="fa-regular fa-circle-xmark"></i></a>
+            </td>
+            <td><img src="../assets/products/f2.jpg" alt="P-1" /></td>
+            <td>Cartoon Astronaut T-shirts</td>
+            <td>$118.19</td>
+            <td><input type="number" value="1" /></td>
+            <td>$118.19</td>
+          </tr>
+          <tr>
+            <td>
+              <a href="#"><i class="fa-regular fa-circle-xmark"></i></a>
+            </td>
+            <td><img src="../assets/products/f3.jpg" alt="P-1" /></td>
+            <td>Cartoon Astronaut T-shirts</td>
+            <td>$118.19</td>
+            <td><input type="number" value="1" /></td>
+            <td>$118.19</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+    <section id="cart-add" class="section-p1">
+      <div id="coupon">
+        <h3>Apply Coupon</h3>
+        <div>
+          <input type="text" placeholder="Enter Your Coupon Code" />
+          <button class="normal">Apply</button>
+        </div>
+      </div>
+      <div id="sub-total">
+        <h3>Cart Totals</h3>
+        <table>
+          <tr>
+            <td>Cart Subtotal</td>
+            <td>$ 335</td>
+          </tr>
+          <tr>
+            <td>Shipping</td>
+            <td>Free</td>
+          </tr>
+          <tr>
+            <td><strong>Total</strong></td>
+            <td><strong>$ 335</strong></td>
+          </tr>
+        </table>
+        <button class="normal">Proceed to checkout</button>
+      </div>
+    </section>
+    <footer class="section-p1">
+      <div class="col">
+        <img src="../assets/logo.png" alt="logo" class="logoS" />
+        <h4>Contact</h4>
+        <p>
+          <strong>Address:</strong>562 Wellington Road, Street 32,san Freancisco
+        </p>
+        <p><strong>Phone:</strong>+01 2222 3665 / (+91) 01 2345 6763</p>
+        <p><strong>Hours:</strong>10:00 - 18:00, Mon - Sat</p>
+        <div class="follow">
+          <h4>Follow us</h4>
+          <div class="icon">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-twitter"></i>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <h4>About</h4>
+        <a href="#">About Us</a>
+        <a href="#">Delivery Information</a>
+        <a href="#">Privacy Poilcy</a>
+        <a href="#">Terms & Condition</a>
+        <a href="#">Contact Us</a>
+      </div>
+      <div class="col">
+        <h4>My Account</h4>
+        <a href="#">Sign In</a>
+        <a href="#">View Cart</a>
+        <a href="#">My WishList</a>
+        <a href="#">Track My Order</a>
+        <a href="#">Help</a>
+      </div>
+      <div class="col install">
+        <h4>Install App</h4>
+        <p>From App Store or Google Play</p>
+        <div class="row">
+          <img src="../assets/pay/app.jpg" alt="app" />
+          <img src="../assets/pay/play.jpg" alt="play" />
+        </div>
+        <p>Secured Payment Gateways</p>
+        <img src="../assets/pay/pay.png" alt="pay" />
+      </div>
+      <div class="copyright">
+        <p>2023 , Tejas Nasre - HTML CSS JS Ecommerce Template</p>
+      </div>
+    </footer>
+    <script src="../js/responsiveHome.js"></script>
+  </body>
+</html>
